@@ -4,7 +4,7 @@ module Ruboty
 
       # /qiita scouter (analyze|a) (?<id>.*?)\z/,
       on(
-        /ducks (?<label_and_ids>(\w+:\w+,?)+)/,
+        /ducks (?<label_and_ids>(.+:\w+,?)+)/,
         name: 'analyze',
         description: 'ducksboard plugin description'
       )
